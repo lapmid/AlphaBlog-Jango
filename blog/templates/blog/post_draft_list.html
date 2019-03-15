@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <ul>
+        {% for post in posts %}
+            <li><a href="#" >{{post}}</a></li>
+        {% endfor %}    
+    </ul>
+    <!-- Hello -->
+{% endblock %}

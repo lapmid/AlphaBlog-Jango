@@ -1,0 +1,20 @@
+h1{
+    color: red;
+}
+
+.hoverable{
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  textarea{
+      height: 250px !important;
+  }
